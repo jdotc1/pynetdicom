@@ -1,3 +1,13 @@
+.. rubric:: About this fork
+
+This is a development fork of `pydicom/pynetdicom <https://github.com/pydicom/pynetdicom>`__, the Python implementation of DICOM networking. Together with pydicom, it provides application entities and service interfaces for exchanging DICOM objects, making it useful for building and testing storage, query, and retrieval integrations within an authorized imaging environment.
+
+Fork work is tracked in `upstream PR #1099 <https://github.com/pydicom/pynetdicom/pull/1099>`__, proposing password redaction in standard DICOM association logs. It was open on 17 October 2026 and remains on the linked feature branch.
+
+Follow the `official installation guide <https://pydicom.github.io/pynetdicom/stable/tutorials/installation.html>`__ and `tutorials <https://pydicom.github.io/pynetdicom/stable/tutorials/index.html>`__ for supported services and configuration. `Compare the default branch with upstream <https://github.com/jdotc1/pynetdicom/compare/pydicom:main...jdotc1:main>`__. The original service tables, examples, and project attribution follow.
+
+.. rubric:: Upstream README
+
 |coverage| |unit-tests| |type-hints| |docs| |black| |pypi-versions| |python-versions| |conda| |zenodo|
 
 .. |coverage| image:: https://codecov.io/gh/pydicom/pynetdicom/branch/main/graph/badge.svg
